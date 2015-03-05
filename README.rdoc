@@ -1,5 +1,0 @@
-== Koala Railing via BDD
-
-Working with BDD Rails.
-
-![BDD](/bdd_in_rails.png)
