@@ -1,4 +1,4 @@
-== Koala Railing via BDD
+## Koala Railing via BDD
 
 Working with BDD Rails.
 
