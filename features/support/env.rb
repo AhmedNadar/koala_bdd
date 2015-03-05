@@ -5,6 +5,7 @@ require 'spork'
 # Its good place to run all initialize for cucumber and rspec
 Spork.prefork do
   require 'cucumber/rails'
+  Capybara.default_selector = :css
   ActionController::Base.allow_rescue = false
   begin
     DatabaseCleaner.strategy = :transaction
