@@ -1,0 +1,11 @@
+<%= simple_form_for(@reader, html: { class: 'form-horizontal new-reader' }) do |form|  %>
+<%= form.input :email, label: false, required: true, autofocus: true,
+            placeholder: 'Enter your email',
+            input_html: { class: 'form-control' } %>
+<%= form.input :password, label: false, required: true, placeholder: "Password",
+            input_html: { class: 'form-control' } %>
+<%= form.input :password, label: false, required: true,
+            placeholder: (" Password #{@minimum_password_length} characters minimum" if @validatable),
+            input_html: { class: 'form-control' } %>
+<%= form.button :submit, "Register", class: "btn btn-success" %>
+<% end %>
