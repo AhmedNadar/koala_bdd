@@ -5,6 +5,9 @@ ruby '2.1.0'
 gem 'rails', '4.2.0'
 gem 'pg'
 gem 'coffee-rails', '~> 4.1.0'
+gem 'simple_form'
+gem 'bootstrap-sass', '~> 3.3.3'
+gem 'sass-rails', '>= 3.2'
 
 group :test do
   gem 'cucumber-rails', require:false
@@ -20,6 +23,7 @@ group :development, :test do
   gem 'web-console', '~> 2.0'
   gem 'spring'
   gem 'rspec-rails', '~> 3.0'
+  gem 'rspec-activemodel-mocks'
   gem "spork-rails"
   gem 'capybara'
 end
