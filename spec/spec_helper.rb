@@ -1,5 +1,6 @@
 require 'rubygems'
 require 'rspec/core'
+require 'rspec/active_model/mocks'
 require 'capybara/rspec'
 require 'spork'
 #uncomment the following line to use spork with the debugger
